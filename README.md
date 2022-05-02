@@ -1,4 +1,4 @@
-# BuscaCEP
+# Busca CEP
 
 A aplicação consiste em consumir uma API do viaCEP, onde é possível visualizar as seguintes informações:
 
