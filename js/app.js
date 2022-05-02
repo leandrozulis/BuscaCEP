@@ -15,7 +15,7 @@ function run(event) {
     axios
     .get('https://viacep.com.br/ws/' + zipCode + '/json/')
     .then((response) => {
-        if (response.data.erro) { 
+        if (response.data.erro) {
             throw new Error('CEP inválido');
         }
 
